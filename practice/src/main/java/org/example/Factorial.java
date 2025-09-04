@@ -3,6 +3,7 @@ public class Factorial {
     private int i;
     private int result = 1;
     private int n;
+
     public int factorial(int n) {
         if (n == 0 || n == 1) {
             result = 1;
@@ -13,7 +14,8 @@ public class Factorial {
         }
         return result;
     }
-       public static void main(String[] args) {
+
+    public static void main(String[] args) {
         Factorial calculator = new Factorial();
         int number = 5;
         int fact = calculator.factorial(number);
